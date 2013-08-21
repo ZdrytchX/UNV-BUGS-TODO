@@ -335,3 +335,8 @@ errors (i.e. painsaw vs dragoon)
   of its velocity rather than a hard-limit)
 
 -Centered Weapon View option
+
+-Have the in-game menus 'detect' the server available callvotes for nubs that don't know how to use a console.
+For example, it could send a /callvote cmd to the server and the server prints a message to the console, but the
+client uses that message to determine the votes available and their options. For example, map votes would now
+list all maps instead of having people /listmaps on the server.
